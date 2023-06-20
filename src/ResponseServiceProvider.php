@@ -2,9 +2,9 @@
 
 namespace Response\Response;
 
+use Response\Response\Commands\ResponseCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Response\Response\Commands\ResponseCommand;
 
 class ResponseServiceProvider extends PackageServiceProvider
 {

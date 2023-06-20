@@ -4,10 +4,8 @@ namespace Response;
 
 use Illuminate\Contracts\Support\Responsable;
 
-
 class SuccessResponse implements Responsable
 {
-
     public function __construct(
         protected $data = [],
         protected $message = 'success',

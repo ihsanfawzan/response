@@ -2,13 +2,12 @@
 
 namespace Response;
 
-use Throwable;
-use Illuminate\Http\Response;
 use Illuminate\Contracts\Support\Responsable;
+use Illuminate\Http\Response;
+use Throwable;
 
 class FailedResponse implements Responsable
 {
-
     public function __construct(
         private ?Throwable $e = null,
         private $message = 'Error has been occured',
