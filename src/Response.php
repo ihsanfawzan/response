@@ -16,7 +16,7 @@ use Throwable;
 
 class Response
 {
-    public function success(
+    public static function success(
         $data = [],
         $message = 'success',
         $code = 200,
@@ -30,7 +30,7 @@ class Response
         );
     }
 
-    public function failed(
+    public static function failed(
         ?Throwable $e = null,
         $message = 'Error has been occured',
         $code = SymfonyResponse::HTTP_INTERNAL_SERVER_ERROR,

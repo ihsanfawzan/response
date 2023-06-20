@@ -15,6 +15,6 @@ class ResponseServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('ihsanfawzan\response');
+            ->name('Ihsanfawzan\response');
     }
 }
