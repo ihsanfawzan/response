@@ -34,13 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Response\\Response\\": "src/",
-            "Response\\Response\\Database\\Factories\\": "database/factories/"
+            "Ihsanfawzan\\Response\\": "src/",
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Response\\Response\\Tests\\": "tests/"
+            "Ihsanfawzan\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -60,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Response\\Response\\ResponseServiceProvider"
+                "Ihsanfawzan\\ResponseServiceProvider"
             ],
             "aliases": {
-                "Response": "Response\\Response\\Facades\\Response"
+                "Response": "Ihsanfawzan\\Facades\\Response"
             }
         }
     },
