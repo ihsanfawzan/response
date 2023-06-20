@@ -16,10 +16,6 @@ class ResponseServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('response')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_response_table')
-            ->hasCommand(ResponseCommand::class);
+            ->name('response');
     }
 }
