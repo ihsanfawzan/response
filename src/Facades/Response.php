@@ -11,6 +11,6 @@ class Response extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Response\Response\Response::class;
+        return \Ihsanfawzan\Response::class;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsanfawzan\Response;
+namespace Ihsanfawzan;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;
