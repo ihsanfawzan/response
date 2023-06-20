@@ -1,7 +1,8 @@
 <?php
 
-namespace Ihsanfawzan;
+namespace Response\Response;
 
+use Response\Response\Commands\ResponseCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -15,6 +16,6 @@ class ResponseServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('response');
+            ->name('ihsanfawzan\response');
     }
 }
