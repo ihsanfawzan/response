@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ihsanfawzan\\Response\\": "src/",
+            "Ihsanfawzan\\Response\\": "src/"
         }
     },
     "autoload-dev": {
