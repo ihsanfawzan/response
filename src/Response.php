@@ -3,16 +3,14 @@
 namespace Ihsanfawzan;
 
 use Exception;
-use Throwable;
-use Ihsanfawzan\FailedResponse;
-use Ihsanfawzan\SuccessResponse;
-use Illuminate\Database\QueryException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Contracts\Support\Responsable;
-use Illuminate\Validation\ValidationException;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Response as SymfonyResponse;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Illuminate\Validation\ValidationException;
 use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Throwable;
 
 class Response
 {
