@@ -46,7 +46,7 @@ class Response
         );
     }
 
-    public function handle(Exception $e)
+    public static function handle(Exception $e)
     {
         return match (true) {
             $e instanceof AuthenticationException => new FailedResponse(

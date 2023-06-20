@@ -5,7 +5,7 @@ namespace Ihsanfawzan\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Response\Response\Response
+ * @see \Ihsanfawzan\Response
  */
 class Response extends Facade
 {
