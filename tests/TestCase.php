@@ -2,7 +2,6 @@
 
 namespace Response\Response\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Response\Response\ResponseServiceProvider;
 
