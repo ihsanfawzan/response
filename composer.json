@@ -1,12 +1,12 @@
 {
     "name": "ihsanfawzan/response",
-    "description": "Standarize response",
+    "description": "Standarize Laravel response",
     "keywords": [
         "response",
         "laravel",
         "response"
     ],
-    "homepage": "https://github.com/response/response",
+    "homepage": "https://github.com/ihsanfawzan/response",
     "license": "MIT",
     "authors": [
         {
