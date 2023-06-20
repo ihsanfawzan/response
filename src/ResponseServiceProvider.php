@@ -1,6 +1,6 @@
 <?php
 
-namespace Response\Response;
+namespace Ihsanfawzan;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

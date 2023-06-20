@@ -1,6 +1,6 @@
 <?php
 
-namespace Response\Response\Facades;
+namespace Ihsanfawzan\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

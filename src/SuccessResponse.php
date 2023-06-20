@@ -1,6 +1,6 @@
 <?php
 
-namespace Response;
+namespace Ihsanfawzan;
 
 use Illuminate\Contracts\Support\Responsable;
 
